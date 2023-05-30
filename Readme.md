@@ -42,33 +42,33 @@ Tecnologias utilizadas no projeto:
 
 ### 1 - Clique em um dos itens na barra de navegação, ou role a barra de rolagem do seu mouse para baixo.
 
-![Inicio](/readmeIMG/heroSection.png)
+![Inicio](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/heroSection.png)
 
 ### Serviços mostrados em forma de cards.
 
-![Serviços](/readmeIMG/SectionServi%C3%A7osCards.png)
+![Serviços](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/SectionServi%C3%A7osCards.png)
 
 
 ###  Foi utilizado o BOOTSTRAP como framework de estilização e responsividade.
 Utilize o atalho [Ctrl + Shift + i] para poder testar a responsividade
 
-![Responsividade](/readmeIMG/responsividade.png)
+![Responsividade](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/responsividade.png)
 
 ### O site também mostra números de clientes satisfeitos, avaliações anteriores, e alguns dados da empresa.
 
-![Estatisticas](/readmeIMG/estatisticasDAempresa.png)
+![Estatisticas](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/estatisticasDAempresa.png)
 
 ### Formulário para contato.
 
-![FormContato](readmeIMG/formContato.png)
+![FormContato](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/formContato.png)
 
 ### Carrossel com logo dos clientes.
 
-![Clientes](/readmeIMG/carrosselClientes.png)
+![Clientes](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/carrosselClientes.png)
 
 ###  Botão para retornar rapidamente ao topo do site.
 
-![BacktoTOP](/readmeIMG/btnBackToTop.png)
+![BacktoTOP](https://github.com/YanPachecoDEV/MSCode-ShieldCyberSEC/blob/main/assets/readmeIMG/btnBackToTop.png)
 
 
 ## Links
