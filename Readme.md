@@ -2,14 +2,17 @@
 ![Logo do projeto](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/mscode.png)
 
 
-## Shield Cibersegurança (Empresa fictícia)
+## Shield CyberSEC (Empresa fictícia)
 
 Olá, esse projeto foi realizado para fins de estudo prático do framework Bootstrap.
 
 O site tem como principal objetivo, aumentar a visibilidade da empresa e também divulgar os serviços prestados pela mesma. Contando também com a concientização das medidas básicas de segurança que o usuário deve ter.
 
 Foi utilizado um template de modelo base para a execução do projeto, o template foi encontrado no site: 
-* https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ 
+* https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+
+Para conteúdo, foi utilizado o site da ISH, e de la foi copiado textos:
+* https://www.ish.com.br
 
 ## Tecnologias 
 
@@ -39,45 +42,33 @@ Tecnologias utilizadas no projeto:
 
 ### 1 - Clique em um dos itens na barra de navegação, ou role a barra de rolagem do seu mouse para baixo.
 
-![Inicio](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/cabecalho.png)
+![Inicio](/readmeIMG/heroSection.png)
 
-### 3 - Selecione um dos inputs para marcar o seu nível de satisfação de cada termo abordado, e clique em "ENVIAR RESPOSTA".
+### Serviços mostrados em forma de cards.
 
-![Posts](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa3.png)
-
-### 4 - De acordo você vai respondendo, uma barra vai indicando seu progresso até chegar o final da pesquisa.
-
-![Progressbar1](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/barra1.png)
-![Progressbar2](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/barra2.png)
-![Progressbar3](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/barra3.png)
-
-### 5 - São 5 perguntas básicas, quando enviar as 5 respostas, a pesquisa irá mostrar sua média de satisfação no final.
-
-![media](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa4.png)
-
-### 6 - A pesquisa irá te dar uma mensagem de retorno de acordo sua média final de satisfação. (Primeiro retorno, mostrado acima)
-![Mensagem](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa5.png)
+![Serviços](/readmeIMG/SectionServi%C3%A7osCards.png)
 
 
 ###  Foi utilizado o BOOTSTRAP como framework de estilização e responsividade.
 Utilize o atalho [Ctrl + Shift + i] para poder testar a responsividade
 
-![Responsividade](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/responsivo1.png)
+![Responsividade](/readmeIMG/responsividade.png)
 
 ### O site também mostra números de clientes satisfeitos, avaliações anteriores, e alguns dados da empresa.
 
-![Estatisticas](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/estat%C3%ADsticas.png)
-![avaliacoes](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/avalaiacoes.png)
+![Estatisticas](/readmeIMG/estatisticasDAempresa.png)
 
+### Formulário para contato.
 
-### Você pode estar acessando rapidamente a parte desejada do site através dos botões no menu da barra de navegação.
-Clicando, ele te "levará" até o ponto com um scroll suave.
+![FormContato](readmeIMG/formContato.png)
 
-![NAVbar](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/NAVbar.png)
+### Carrossel com logo dos clientes.
+
+![Clientes](/readmeIMG/carrosselClientes.png)
 
 ###  Botão para retornar rapidamente ao topo do site.
 
-![NAVbar](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/botao%20Back%20to%20Top.png)
+![BacktoTOP](/readmeIMG/btnBackToTop.png)
 
 
 ## Links
