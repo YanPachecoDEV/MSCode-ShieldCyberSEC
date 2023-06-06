@@ -38,7 +38,7 @@ Tecnologias utilizadas no projeto:
 * Clique em um dos itens na barra de navegação, ou clique no boão "Iniciar" para iniciar a pesquisa.
 
 
-## Navegue pelo site utilizando o Navbar ou o Scrool do mouse (Parte 2)
+## Navegue pelo site utilizando o Navbar ou o Scrool do mouse.
 
 ### 1 - Clique em um dos itens na barra de navegação, ou role a barra de rolagem do seu mouse para baixo.
 
