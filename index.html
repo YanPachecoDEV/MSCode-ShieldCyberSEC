@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <!-- =======================================================
   * Template Name: Gp
@@ -286,92 +287,97 @@
           <p>Fale com a Shield</p>
         </div>
 
-        <div class="row mt-5">
+        
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Endereço:</h4>
-                <p>AV. Agenor Luiz Heringer, Pinheiros, ES 2998000</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>shieldsec@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Tel:</h4>
-                <p>+55 27 9 9999 9999</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="col-md-12 order-md-1">
+            <h4 class="mb-3"></h4>
+            <form class="needs-validation" novalidate>
               <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome completo" required>
+                <div class="col-md-6 mb-3">
+                  <label for="primeiroNome">Nome</label>
+                  <input type="text" class="form-control" id="primeiroNome" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    É obrigatório inserir um nome válido.
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu email" required>
-                </div>          
-              
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="inputCity" ></label>
-                  <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Qual sua cidade?">
+                <div class="col-md-6 mb-3">
+                  <label for="sobrenome">Sobrenome</label>
+                  <input type="text" class="form-control" id="sobrenome" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    É obrigatório inserir um sobre nome válido.
+                  </div>
                 </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="inputEstado"></label>
-                  <select id="inputEstado" class="form-control"required>
-                    <option selected>Selecione sua UF</option>
-                    <option>MG</option>
-                    <option>BA</option>
-                    <option>ES</option>
-                    <option>RJ</option>
-                    <option>SP</option>
-                    <option>GO</option>
+              </div>
+  
+              <div class="mb-3">
+                <label for="nickname">Nickname</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="nickname" placeholder="Nickname" required>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    Seu nickname é obrigatório.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="email">Email <span class="text-muted">(Opcional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="fulano@exemplo.com">
+                <div class="invalid-feedback">
+                  Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="endereco">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Rua dos bobos, nº 0" required>
+                <div class="invalid-feedback">
+                  Por favor, insira seu endereço de entrega.
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <label for="endereco2">Endereço 2 <span class="text-muted">(Opcional)</span></label>
+                <input type="text" class="form-control" id="endereco2" placeholder="Apartamento ou casa">
+              </div>
+  
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="pais">País</label>
+                  <select class="custom-select d-block w-100" id="pais" required>
+                    <option value="">Escolha...</option>
+                    <option>Brasil</option>
                   </select>
+                  <div class="invalid-feedback">
+                    Por favor, escolha um país válido.
+                  </div>
                 </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="inputCEP"></label>
-                  <input type="text" class="form-control" id="inputCEP"  placeholder="Digite seu CEP" required>
+                <div class="col-md-4 mb-3">
+                  <label for="estado">Estado</label>
+                  <select class="custom-select d-block w-100" id="estado" required>
+                    <option value="">Escolha...</option>
+                    <option>Acre</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor, insira um estado válido.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="cep">CEP</label>
+                  <input type="text" class="form-control" id="cep" placeholder="" required>
+                  <div class="invalid-feedback">
+                    É obrigatório inserir um CEP.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Digite aqui sua mensagem" required></textarea>
                 </div>
               
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="inputSeguimento"></label>
-                  <select id="inputSeguimento" class="form-control" required>
-                    <option selected>Selecione seu seguimento</option>
-                    <option>Banco Digital</option>
-                    <option>E-commerce</option>
-                    <option>Rede de Lojas</option>
-                    <option>Seguradora de Veículos</option>
-                    <option>Backup em Nuvem</option>
-                    <option>Carteira de Criptomoedas</option>
-                    <option>Outro</option>
-                  </select>
-                </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Motivo do contato" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Digite aqui sua mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Carregando</div>
-                <div class="error-message">Não foi possível enviar sua mensagem.</div>
-                <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
-            </form>
-
-          </div>
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">ENVIAR MENSAGEM</button>
 
         </div>
 
@@ -439,6 +445,41 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+  <!--Script validação Form-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Exemplo de JavaScript para desativar o envio do formulário, se tiver algum campo inválido.
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Selecione todos os campos que nós queremos aplicar estilos Bootstrap de validação customizados.
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Faz um loop neles e previne envio
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
 
 </body>
 
